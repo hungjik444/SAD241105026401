@@ -33,7 +33,7 @@
 ### Employee: Thuộc tính name, id, salaryType. Nhiệm vụ là lưu trữ và cung cấp thông tin cơ bản của nhân viên.
 ### Payroll Administrator: Thuộc tính adminId, role. Nhiệm vụ là quản lý và duyệt quá trình thanh toán.
 ### Payment: Thuộc tính totalPayment, paymentDate. Nhiệm vụ là thực hiện tính toán lương dựa trên giờ làm và đơn đặt hàng.
-## d. Biểu đồ lớp và giải thích
+## d. Biểu đồ lớp
 ![PlantText](https://www.planttext.com/api/plantuml/png/Z5B1IiGm4BttAq9FAkoYrnvaHGNt80ekU1wJOJUOPCeaAHJnoppuIVw2oLhRJLd47Xeoxysyzv9yVNokV00EqPfA6l1UtDhMK8yetYgHleNGgX5FWRNR3WK75cSb3mQut_Jj76YXj-Z2FOOTbNE4a61aD13myOTqSje8HV75OFLU3MuIn6JCbRBQQHyO0l7e379rFH_RCadqVkZCGplIgXYPrSOfWyNrF2POYYwCbWhoJNBTYFmVHBVeaCiefUf6MvJ0QfJTKMJ_JFoAILYxC9IfGmw9UvVX2JWuhTopHxD8ngTaaUKEF3wmmkcKAE_-aowd2DTahVPUaoklOtmMzKKj5elBj2wNP_MKgn5rzEZh8yppFRDqzmSzhRztb5YC4dMNcKVVmipEGQC51zlSjqAdqll-1W00__y30000)
 
 # 4. Phân tích ca sử dụng "Maintain Timecard"
@@ -50,5 +50,15 @@
 ### Employee: Như mô tả trong ca sử dụng "Payment".
 ### Timecard: Thuộc tính date, hoursWorked, projectId. Nhiệm vụ là ghi lại số giờ làm việc của nhân viên.
 ### Project: Thuộc tính projectId, projectName. Nhiệm vụ là cung cấp mã dự án để nhân viên ghi nhận giờ làm.
-## d. Biểu đồ lớp và giải thích
+## d. Biểu đồ lớp 
 ![PlantText](https://www.planttext.com/api/plantuml/png/R971IWCn48RlUOeXfrRSWjSzI0yLz2A21SznCsodJJObcRM8zCbww2Fv2iww8MAtEIJmvS_7pEJxT5ucDf5xxrJZJ4hmuFSkV2B2bm9P5P2juPKZTMq6dV7u3m6uqAx9usnUmqSWguugsmRQc6YBZJDukhHQms9ToPx19lGnlOMuGubInndlOzXYmnVl0OorZyEBsIHmEwf-9PC2NyPqgU-wll3dQUyjyWhPa4j3-_bA_6MG-av3LTtBkLZSwB-HrA1J_-w9arO5vj2OrwKyoKgreI6PZuK3yKQh9NPs-BSV0000__y30000)
+# 5. Hợp nhất kết quả phân tích
+## Hệ thống "Payroll System" hỗ trợ quản lý giờ làm việc và thanh toán lương cho nhân viên, bao gồm hai chức năng chính
+### Select Payment: Nhân viên chọn phương thức nhận lương (chuyển khoản, nhận trực tiếp, gửi bưu điện).
+### Maintain Timecard: Nhân viên ghi nhận giờ làm việc và gửi thông tin cho hệ thống tính lương.
+## Quan hệ giữa các lớp
+### Employee liên kết với Timecard để ghi nhận giờ làm việc và với Payment để nhận thanh toán lương.
+### Employee có thể liên kết với Project để ghi nhận giờ làm theo từng dự án.
+### PayrollAdministrator quản lý các bản ghi thanh toán trong Payment.
+## Biểu đồ lớp
+![PlantText](https://www.planttext.com/api/plantuml/png/b9FFJiCm3CRlVGehfmwn2Quze24DYHr0I21n3etL1PAuIjAX2V5a77WaNe5qoxB-kwo7LdK_sx_FJlz-VfVES-iRhR9ISUVWJjUATeZmbK6uvY150S_UIbF5WE4Q1w6QxpGQ_u1-GtqvW4E5fN_gAdBT4yuAs98KKQ-eUf4QyzhIUqXS9zabRAYnhW1f_37bEulORKh9hKZOFWRMGtp1VS1VXNiCxAk-alr0iQzzz3Ji7_cu4FTjnfc0SG29BuviXCSrDSON8AXvKzWNh_he01KQjE4r5iynBg_Br2yuvZguE75Dsaxnn-7oMmY_Gi-bSlaiVUhwjgJKhT3IIES3BTdKZBVHyOJhq6oRJ8qcrV6GJYkxPZ2VtuJdOd71JiUX06Qn92iScnApj9U34EKM9vLN-xB7OGNnPpWm3iYmRDBXWAVJHNF3gxR94ere_xli7m00__y30000)
