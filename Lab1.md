@@ -10,7 +10,7 @@
 #### Database Layer: Quản lý dữ liệu nhân viên, thẻ thời gian, đơn đặt hàng và phiếu lương.
 #### Security Layer: Đảm bảo chỉ những người được phép mới có thể truy cập các dữ liệu nhạy cảm.
 ## b. Biểu đồ Package
-![PlantText](https://www.planttext.com/api/plantuml/png/R99BJiCm48RtFiMe-ruW2zGNh42AA68_k4Dby4jZ5yb2d8m5H-8AE3J5ZiFsc_7_-NVo_Vcr2X4vdemM7kKh7WaMFLCW6p4gPnVmBW2anX3WrXsLlN5i_iY3CYIH3nFOOpBv-8JTatTyHX-YcDRUQoLdefp0JkkUdQGG7CzyU-8t9QbLjlXilT1QlCE8JnYejbuRhrqYscrclWhbIxsGZ9dKUNkI9rOnrNaNTeSsxvGIQpcqsZeRSybYjvAJ7rwYkc_pAPPNpPDri4MjOJmHn7Gwh9UYtIY60VspMIfqy4YidXFqn4Q5a5ToT9ctkRyJ6kF5YkmX_qu_0000__y30000)
+![PlantText](https://www.planttext.com/api/plantuml/png/T9112i8m44NtESNGlHV8Gbhq08M2-p6E4anZo4o58fxCXKVo2YOY14FTpdky3_DwF5iMZ3ADJWKqPpmHD7qa9Yyezk8Rk2a0TLS5To4uQ_xHBGhkaMa13MIcQ6Kkg9fQhQkwXWqw1mF5gpN4wfTclSnfw4no6F9fmIph6dOKxN66dk9ecPEIqeNNtG-XRrwrv0_vNMy0003__mC0)
 
 # 2. Cơ chế phân tích
 ## Các cơ chế cần giải quyết
