@@ -8,7 +8,7 @@
 ### Create Administrative Report: Tạo báo cáo hành chính.
 ### Create Employee Report: Nhân viên tạo báo cáo của riêng họ.
 ### Select Payment Method: Nhân viên chọn phương thức thanh toán.
-
+![PlantText](https://www.planttext.com/api/plantuml/png/R9AzRi8m4CTtFuMLdO7lJeWATQW40a7PifoIQx7a3tI-LCgpTU2H-WerYOCXPV1mF_zqvx_jtv_BqZCGLqOBADYHV3DdxMh4M6OxgCbfBLzBewpoJ11m9i6t96g7sZCQ8IgF1NYKsTfzATjenzKmuGqeos7TnkJstNuwCi3ATVxeYR-hg3W5bDijbKZH73ynFvG9YCgeJ9AohqAVDaxSdARD5I4mtiTKts7Q7i-EEEgpVtgAyI3EatX0ZGLVvngqdDiDyibrXtiHekiW1uD5SrSzCEw3IH_C-o1qRMBSMjvNeuTg9aJxTB6UYYNQyleR_W000F__0m00)
 ## Mô tả chi tiết từng ca sử dụng
 ## 1. Login
 ### Mô tả: Người dùng đăng nhập vào hệ thống.
